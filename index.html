@@ -20,7 +20,19 @@
         </div>
         <h1 class="well">For Palindromes</h1>
         <div class="panel-body">
-          
+          <form id="palindrome" action="index.html" method="post">
+            <input id="userPalindrome" type="text" placeholder="Enter a word or phrase">
+            <button type="submit" name="button" class="btn-danger">Is it a palindrome?</button>
+          </form>
+          <span id="displayP"></span>
+        </div>
+        <h1 class="well">For Primes</h1>
+        <div class="panel-body">
+          <form id="prime" action="index.html" method="post">
+            <input id="userPrime" type="number" placeholder="Enter a number">
+            <button type="submit" name="button" class="btn-info">List All Primes</button>
+          </form>
+          <ul id="displayPrime"></ul>
         </div>
       </div>
     </div>
